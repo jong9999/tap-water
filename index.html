@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="container text-center">
+
+    <h1 class="nav1">수돗물 계산기</h1>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">소 변</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap1" placeholder="Username">
+        <label for="tap1">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap2" placeholder="Username">
+        <label for="tap2">사용 시간(회)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water1" placeholder="Username">
+        <label for="water1">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score1" placeholder="Username">
+        <label for="score1">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">대 변</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap3" placeholder="Username">
+        <label for="tap3">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap4" placeholder="Username">
+        <label for="tap4">사용 시간(회)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water2" placeholder="Username">
+        <label for="water2">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score2" placeholder="Username">
+        <label for="score2">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">손씻기</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap5" placeholder="Username">
+        <label for="tap5">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap6" placeholder="Username">
+        <label for="tap6">사용 시간(분)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water3" placeholder="Username">
+        <label for="water3">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score3" placeholder="Username">
+        <label for="score3">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">머리감기</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap7" placeholder="Username">
+        <label for="tap7">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap8" placeholder="Username">
+        <label for="tap8">사용 시간(분)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water4" placeholder="Username">
+        <label for="water4">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score4" placeholder="Username">
+        <label for="score4">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">샤 워</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap9" placeholder="Username">
+        <label for="tap9">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap10" placeholder="Username">
+        <label for="tap10">사용 시간(분)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water5" placeholder="Username">
+        <label for="water5">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score5" placeholder="Username">
+        <label for="score5">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">양치(컵)</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap11" placeholder="Username">
+        <label for="tap11">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap12" placeholder="Username">
+        <label for="tap12">사용 시간(컵)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water6" placeholder="Username">
+        <label for="water6">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score6" placeholder="Username">
+        <label for="score6">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">걸레빨기</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap13" placeholder="Username">
+        <label for="tap13">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap14" placeholder="Username">
+        <label for="tap14">사용 시간(분)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water7" placeholder="Username">
+        <label for="water7">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score7" placeholder="Username">
+        <label for="score7">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">세 탁</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap15" placeholder="Username">
+        <label for="tap15">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap16" placeholder="Username">
+        <label for="tap16">사용 시간(회)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water8" placeholder="Username">
+        <label for="water8">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score8" placeholder="Username">
+        <label for="score8">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">설겆이</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap17" placeholder="Username">
+        <label for="tap17">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap18" placeholder="Username">
+        <label for="tap18">사용 시간(분)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water9" placeholder="Username">
+        <label for="water9">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score9" placeholder="Username">
+        <label for="score9">점수</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">식물 물주기</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap19" placeholder="Username">
+        <label for="tap19">1일 횟수</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="tap20" placeholder="Username">
+        <label for="tap20">사용 시간(분)</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="water10" placeholder="Username">
+        <label for="water10">사용량</label>
+      </div>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="score10" placeholder="Username">
+        <label for="score10">점수</label>
+      </div>
+    </div>
+
+    <div class="d-grid gap-2">
+      <button class="btn btn-primary" type="button" onclick="multi()">수돗물 사용량 계산하기</button>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">총 사용량</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="sum" placeholder="Username">
+        <label for="sum">내가 하루에 쓰는 수돗물은?</label>
+      </div>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text">총 점수</span>
+      <div class="form-floating">
+        <input type="text" class="form-control" id="sum1" placeholder="Username">
+        <label for="sum1">나의 수돗물 계산기 점수는?</label>
+      </div>
+    </div>
+
+    <h2 class="text" >
+      <p>점수에 따라 달라지는 지구인의 모습</p>
+      <P>1. 진짜 지구를 사랑하는 지구인(ex1~20점)</p>
+      <p>2. 지구를 위해 노력이 필요한 지구인(ex20~40점)</p>
+      <p>3. 지구를 위해  많은 노력과 사랑이 필요한 지구인(ex40~60점)</p>
+      <p>4. 지구를 아프게 만드는 지구인(ex60~80점)</p>
+      <p>5. 지구가 싫어하는 지구인(ex80~100점)</p>
+      
+      </h2>
+
+  </section>
+  
+  <script src="https://kit.fontawesome.com/e73e2f0624.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
