@@ -51,7 +51,7 @@ if (result > 0){
   document.getElementById("sum").value = "숫자를 입력하세요.";
 }
 
-if (result1 == 0 || result1 > 13) {
+if (result1 == 0 || result1 < 13) {
   document.getElementById("score1").value = 1
 }else if  (result1 < 61) {
   document.getElementById("score1").value = 5
@@ -85,7 +85,7 @@ if (result4 == 0 || result4 < 51) {
 
 if (result5 == 0 || result5 < 151) {
   document.getElementById("score5").value = 1
-} if (result5 < 301) {
+}else if (result5 < 301) {
   document.getElementById("score5").value = 5
 } else {
   document.getElementById("score5").value = 10
@@ -93,7 +93,7 @@ if (result5 == 0 || result5 < 151) {
 
 if (result6 == 0 || result6 < 8) {
   document.getElementById("score6").value = 1
-}if (result6 < 16) {
+}else if (result6 < 16) {
   document.getElementById("score6").value = 5
 } else {
   document.getElementById("score6").value = 10
@@ -107,17 +107,17 @@ if (result7 == 0 || result7 < 51) {
   document.getElementById("score7").value = 10
 }
 
-if (result8 == 0 || result8 < 41) {
+if (result8 == 0 || result8 < 301) {
   document.getElementById("score8").value = 1
-}else if (result8 < 82) {
+}else if (result8 < 502) {
   document.getElementById("score8").value = 5
 } else {
   document.getElementById("score8").value = 10
 }
 
-if (result9 == 0 || result9 < 301) {
+if (result9 == 0 || result9 < 41) {
   document.getElementById("score9").value = 1
-}else if (result9 < 501) {
+}else if (result9 < 82) {
   document.getElementById("score9").value = 5
 } else {
   document.getElementById("score9").value = 10
@@ -143,8 +143,5 @@ let i = parseInt(score9.value);
 let j = parseInt(score10.value);
 
 document.getElementById("sum1").value = a+b+c+d+e+f+g+h+i+j;
-
-
-
 }
 
