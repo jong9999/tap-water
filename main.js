@@ -28,7 +28,7 @@ let result4 = parseInt(num7) * parseInt(num8) * 10;
 let result5 = parseInt(num9) * parseInt(num10) * 10;
 let result6 = parseInt(num11) * parseInt(num12) * 0.5;
 let result7 = parseInt(num13) * parseInt(num14) * 10;
-let result8 = parseInt(num15) * parseInt(num16) * 160;
+let result8 = parseFloat(num15) * parseInt(num16) * 160;
 let result9 = parseInt(num17) * parseInt(num18) * 10;
 let result10 = parseInt(num19) * parseInt(num20) * 10;
 
