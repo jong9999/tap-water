@@ -19,16 +19,18 @@ body {
   min-height: 100vh;}
 
   .input-group-text {
-    width: 80px;
-    background-color: skyblue;
+    width: 85px;
+    background-color: #4B89DC;
     color: white;
+    justify-content: center;
+    white-space: pre-line;
+    font-size: 0.8rem;
   }
-  
 
 
   .btn {
-    background-color: skyblue;
-    border-color: skyblue;
+    background-color: #4B89DC;
+    border-color: #4B89DC;
   }
 
   h1 {
@@ -42,9 +44,6 @@ body {
   .input-group {
     margin-top: 10px;
   }
-  .input-group-text {
-    justify-content: center;
-  }
 
 label {
     font-size: 0.5rem;
@@ -54,3 +53,6 @@ label {
     font-size: 80%;
     text-align: left;
   }
+
+
+  
