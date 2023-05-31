@@ -239,4 +239,14 @@ function multi2 () {
     document.getElementById("sum2").value = "숫자를 입력하세요.";
   }
 
+  let tree1 = parseFloat(coto1) * 365 / 1000;
+  let tree2 = parseFloat(coto2) * 365 / 1000;
+  let tree3 = parseFloat(coto3) * 365 / 1000;
+
+  document.getElementById("co2score1").value = `${tree1.toFixed(3)} kg`
+  document.getElementById("co2score2").value = `${tree2.toFixed(1)} kg`
+  document.getElementById("co2score3").value = `${tree3.toFixed(1)} kg`
+
+  document.getElementById("sum3").value = `${tree1+tree2+tree3} kg`;
+
 }
