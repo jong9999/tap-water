@@ -81,3 +81,8 @@ label {
   .line {
     border: 5px solid skyblue;
   }
+
+
+  i {
+    font-size: 2rem;
+  }

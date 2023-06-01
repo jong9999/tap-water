@@ -247,6 +247,8 @@ function multi2 () {
   document.getElementById("co2score2").value = `${tree2.toFixed(1)} kg`
   document.getElementById("co2score3").value = `${tree3.toFixed(1)} kg`
 
-  document.getElementById("sum3").value = `${tree1+tree2+tree3} kg`;
+  let treeall = (tree1+tree2+tree3) / 2.35;
+
+  document.getElementById("sum3").value = `${treeall.toFixed(0)} 그루`;
 
 }
