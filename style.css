@@ -68,6 +68,7 @@ label {
     background-color: #4B89DC;
     color: white;
     padding: 10px;
+    margin-top: 1px;
   }
 
   .nav2 {
@@ -85,4 +86,19 @@ label {
 
   i {
     font-size: 2rem;
+  }
+
+  .img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .greenfuture {
+    justify-content: center;
+    display: flex;
+  }
+  
+  .gf{
+    color: #58714B;
+    font-size: 30px;
   }
